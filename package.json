@@ -1,14 +1,21 @@
 {
-  "name": "cryptodemo",
+  "name": "nodejs-crypto-learn",
   "version": "1.0.0",
-  "description": "crypto module",
+  "description": "学习密码技术",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "Node.js",
     "crypto"
   ],
   "author": "cuijie <yinsu@foxmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
 }
